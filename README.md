@@ -12,13 +12,12 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install fisher-rack
-
 ## Usage
 
-TODO: Write usage instructions here
+### Rails 3.0 or later
+
+To configure your application to track application stats run `rails g fisher:rack:install`. Run
+`rails g fisher:rack:install -h` for more options.
 
 ## Contributing
 

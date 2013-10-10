@@ -44,7 +44,7 @@ module Fisher
           end
         end
       rescue => e
-        warn "Middleware#record_request failed: #{e.inspect}"
+        warn "Fisher::Rack::Middleware#record_request failed: #{e.inspect}"
       end
 
       def status_suffix(status)
